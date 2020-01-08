@@ -1,0 +1,114 @@
+body {
+  background-color: #f7f7f7;
+  padding-bottom: 2rem;
+}
+.sn-nav-wrapper {
+  width: 15rem;
+  height: 3.52rem;
+  margin: 0 auto;
+}
+.index-nav {
+  position: relative;
+  background: #ffdb47;
+  width: 15rem;
+  margin: 0 auto;
+  z-index: 100;
+  font-size: 0.48rem;
+  line-height: 1.76rem;
+  overflow: hidden;
+}
+.index-nav .index-nav-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15rem;
+  height: 3.6rem;
+  overflow: hidden;
+}
+.index-nav .index-nav-bg img {
+  position: absolute;
+  bottom: 0;
+  width: 15rem;
+  height: 5.2rem;
+}
+.index-nav .type {
+  position: relative;
+  width: 15rem;
+}
+.index-nav .top-type {
+  display: block;
+}
+.index-nav .type .content-wrap-one {
+  width: 13.64rem;
+  height: 1.76rem;
+  margin: 0 auto;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+}
+.index-nav .class {
+  display: block;
+  margin: 0.34rem 0 0 0;
+  width: 0.72rem;
+  height: 1.2rem;
+}
+.index-nav .class img {
+  width: 0.72rem;
+  height: 1.2rem;
+}
+.lazybox,
+.lazyimg img {
+  background: 0;
+}
+a {
+  text-decoration: none;
+}
+.index-nav .aa-img {
+  width: 9rem;
+  height: 1.1rem;
+  margin-top: 0.36rem;
+  margin-right: 1rem;
+}
+img,
+input {
+  vertical-align: middle;
+}
+.index-nav .logbtn {
+  width: 0.72rem;
+  margin: 0.34rem 0;
+  height: 1.2rem;
+  text-align: center;
+}
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.index-nav .type .content-wrap-two {
+  width: 15rem;
+  height: 1.84rem;
+  box-sizing: border-box;
+  padding: 0 0.48rem;
+}
+.pr {
+  position: relative;
+}
+.search-bar a.search {
+  display: block;
+  position: absolute;
+  height: 1.76rem;
+  width: 100%;
+  z-index: 10;
+}
+.search-icon {
+  position: absolute;
+  width: 0.72rem;
+  height: 0.72rem;
+  top: 0.56rem;
+  left: 0.4rem;
+  background-image: url(../image/02.01.png);
+  background-size: 0.72rem 0.72rem;
+}
+.search-bar form {
+  height: 1.76rem;
+}
