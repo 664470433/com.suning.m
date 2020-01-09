@@ -1,114 +1,246 @@
-body {
-  background-color: #f7f7f7;
-  padding-bottom: 2rem;
-}
-.sn-nav-wrapper {
-  width: 15rem;
-  height: 3.52rem;
-  margin: 0 auto;
-}
-.index-nav {
-  position: relative;
-  background: #ffdb47;
-  width: 15rem;
-  margin: 0 auto;
-  z-index: 100;
-  font-size: 0.48rem;
-  line-height: 1.76rem;
-  overflow: hidden;
-}
-.index-nav .index-nav-bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 15rem;
-  height: 3.6rem;
-  overflow: hidden;
-}
-.index-nav .index-nav-bg img {
-  position: absolute;
-  bottom: 0;
-  width: 15rem;
-  height: 5.2rem;
-}
-.index-nav .type {
-  position: relative;
-  width: 15rem;
-}
-.index-nav .top-type {
-  display: block;
-}
-.index-nav .type .content-wrap-one {
-  width: 13.64rem;
-  height: 1.76rem;
-  margin: 0 auto;
-  display: flex;
-  display: -webkit-flex;
-  justify-content: space-between;
-}
-.index-nav .class {
-  display: block;
-  margin: 0.34rem 0 0 0;
-  width: 0.72rem;
-  height: 1.2rem;
-}
-.index-nav .class img {
-  width: 0.72rem;
-  height: 1.2rem;
-}
-.lazybox,
-.lazyimg img {
-  background: 0;
-}
-a {
-  text-decoration: none;
-}
-.index-nav .aa-img {
-  width: 9rem;
-  height: 1.1rem;
-  margin-top: 0.36rem;
-  margin-right: 1rem;
-}
-img,
-input {
-  vertical-align: middle;
-}
-.index-nav .logbtn {
-  width: 0.72rem;
-  margin: 0.34rem 0;
-  height: 1.2rem;
-  text-align: center;
-}
-img {
-  display: block;
+body,
+html {
   width: 100%;
   height: 100%;
 }
-.index-nav .type .content-wrap-two {
-  width: 15rem;
-  height: 1.84rem;
-  box-sizing: border-box;
-  padding: 0 0.48rem;
+header {
+  position: relative;
+  height: 1.36rem;
+  background-color: #d0001b;
 }
-.pr {
+header .left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1.41333333rem;
+  height: 100%;
+  text-align: center;
+}
+header .left img {
+  margin-top: 0.26666667rem;
+  width: 0.48rem;
+  height: 0.8rem;
+}
+header .center {
+  margin-left: 1.41333333rem;
+  margin-right: 1.36rem;
+  height: 100%;
+  text-align: center;
+}
+header .center img {
+  margin-top: 0.26666667rem;
+  width: 5.33333333rem;
+  height: 0.8rem;
+}
+header .right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1.36rem;
+  height: 100%;
+  text-align: center;
+}
+header .right img {
+  margin-top: 0.26666667rem;
+  width: 0.48rem;
+  height: 0.8rem;
+}
+nav {
+  position: relative;
+  height: 5.73333333rem;
+}
+nav img {
+  width: 100%;
+}
+nav input {
+  position: absolute;
+  top: 0;
+  left: 0.29333333rem;
+  width: 9.36rem;
+  height: 0.85333333rem;
+  line-height: 0.85333333rem;
+  background-color: #fff;
+  padding-left: 0.85333333rem;
+  box-sizing: border-box;
+  border-radius: 15px;
+  border: none;
+  font-size: 0.37333333rem;
+}
+nav i {
+  position: absolute;
+  top: 0.16rem;
+  left: 0.45333333rem;
+  width: 0.48rem;
+  height: 0.48rem;
+  background-image: url(../image/02.01.png);
+  background-size: 0.48rem 0.48rem;
+}
+nav ul {
+  position: absolute;
+  top: 1.06666667rem;
+  left: 0;
+  padding: 0 0.33333333rem;
+}
+nav ul li {
   position: relative;
 }
-.search-bar a.search {
-  display: block;
-  position: absolute;
-  height: 1.76rem;
+nav ul li img {
   width: 100%;
-  z-index: 10;
+  border-radius: 8px;
 }
-.search-icon {
-  position: absolute;
-  width: 0.72rem;
-  height: 0.72rem;
-  top: 0.56rem;
-  left: 0.4rem;
-  background-image: url(../image/02.01.png);
-  background-size: 0.72rem 0.72rem;
+main {
+  margin-bottom: 2.66666667rem;
 }
-.search-bar form {
-  height: 1.76rem;
+.enter-list {
+  width: 100%;
+  background-color: #fff;
+}
+.enter-list .fix {
+  width: 100%;
+  font-size: 0;
+}
+.enter-list .fix .fix-item {
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+  padding-top: 0.24rem;
+}
+.enter-list .fix .fix-item a {
+  display: block;
+  width: 100%;
+}
+.enter-list .fix .fix-item img {
+  width: 1.08rem;
+}
+.enter-list .fix .fix-item .title {
+  font-size: 0.16rem;
+  margin-top: 0.13333333rem;
+}
+.adv {
+  margin-top: 0.17333333rem;
+  margin-bottom: 0.33333333rem;
+}
+.adv img {
+  width: 100%;
+}
+.gift {
+  font-size: 0;
+}
+.gift a {
+  display: inline-block;
+  width: 25%;
+  padding-left: 0.05333333rem;
+  box-sizing: border-box;
+}
+.gift a:first-child {
+  width: 50%;
+}
+.gift a img {
+  width: 100%;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+}
+footer ul {
+  width: 100%;
+  display: flex;
+}
+footer ul li {
+  flex: 1;
+  text-align: center;
+  padding: 0.24rem 0;
+}
+footer ul li a {
+  display: block;
+  width: 100%;
+  margin-bottom: 0.06666667rem;
+}
+footer ul li a img {
+  width: 0.64rem;
+  height: 0.64rem;
+}
+footer ul li .active {
+  font-weight: bold;
+}
+.activity {
+  background-color: #f7f7f7;
+  padding: 0.29333333rem 0.29333333rem 0;
+}
+.activity-item {
+  background-color: #fff;
+  float: left;
+  width: 50%;
+  padding-top: 0.33333333rem;
+}
+.activity-item .activity-item-title {
+  width: 100%;
+  margin-left: 0.33333333rem;
+}
+.activity-item .activity-item-title h5 {
+  font-size: 0.37333333rem;
+  font-weight: bold;
+  margin-bottom: 0.16rem;
+}
+.activity-item .activity-item-title p {
+  color: #999;
+}
+.activity-item .activity-item-show {
+  width: 100%;
+}
+.activity-item .activity-item-show li {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+.activity-item .activity-item-show li a {
+  display: block;
+  width: 100%;
+}
+.activity-item .activity-item-show li a img {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+.recommend {
+  padding: 0 0.29333333rem;
+  background-color: #f7f7f7;
+  height: 1.74666667rem;
+}
+.recommend .recommend-title {
+  padding-top: 0.4rem;
+  padding-left: 0.32rem;
+  background-color: #fff;
+  float: left;
+  width: 25%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.recommend .recommend-title h4 {
+  font-size: 0.42666667rem;
+  font-weight: bold;
+}
+.recommend .recommend-title p {
+  margin-top: 0.13333333rem;
+  color: #999;
+}
+.recommend .recommend-show {
+  background-color: #fff;
+  float: left;
+  width: 75%;
+}
+.recommend .recommend-show a {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+.recommend .recommend-show a img {
+  width: 1.33333333rem;
+  height: 1.33333333rem;
+  margin-bottom: 0.06666667rem;
+}
+.recommend .recommend-show a p {
+  color: #333;
 }
