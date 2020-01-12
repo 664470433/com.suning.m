@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./js/flexible_css.debug.js"></script>
+    <script src="./js/flexible.debug.js"></script>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/search.css">
+</head>
+
+<body>
+    <div class="sn-nav sn-block sn-nav-search">
+        <div class="sn-nav-img" style="z-index:-1">
+        </div>
+        <div class="sn-nav-back">
+            <a class="sn-iconbtn" href="#"><i></i></a>
+        </div>
+        <div class="sn-nav-inp wbox">
+            <i class="sn-search-iconbtn"></i>
+            <div class="wbox-flex">
+                <form action="javascript:searchSubmit();">
+                    <input type="text" class="searchInp" placeholder="请输入您想找的商品"
+                        onfocus="if(this.value===this.defaultValue) {this.value=''};this.style.color='#222';"
+                        onblur="if(this.value==='') {this.value=this.defaultValue;this.style.color='#999';}"
+                        style="color:#999" value="跨店每300减30">
+                </form>
+                <input type="hidden" id="wapSearchChannel" value="">
+                <input type="hidden" id="wapSearchTerminalFlag" value="">
+            </div>
+            <div class="clo-se-input"></div>
+            <a href="" class="button">搜索</a>
+        </div>
+    </div>
+    <div class="sn-list-box">
+        <div class="sn-list-nav">
+            <ul>
+                <li>热门推荐</li>
+                <li>手机数码</li>
+                <li>大家电</li>
+                <li>电脑办公</li>
+                <li>厨卫大电</li>
+                <li>生活家电</li>
+                <li>食品酒水</li>
+                <li>品质男装</li>
+                <li>苏宁国际</li>
+                <li>珠宝首饰</li>
+                <li>运动户外</li>
+                <li>居家生活</li>
+                <li>家居家纺</li>
+                <li>家装建材</li>
+                <li>厨具水具</li>
+                <li>二手优品</li>
+                <li>苏宁生鲜</li>
+                <li>奶粉尿裤</li>
+                <li>中央空调</li>
+                <li>智能数码</li>
+                <li>钟表眼镜</li>
+                <li>品质男鞋</li>
+                <li>流行女装</li>
+                <li>精品女鞋</li>
+                <li>汽车生活</li>
+                <li>人群偏爱</li>
+                <li>美妆护肤</li>
+                <li>个人护理</li>
+                <li>童装玩具</li>
+                <li>皮具箱包</li>
+                <li>内衣配饰</li>
+                <li>图书音像</li>
+                <li>苏宁极物</li>
+                <li>礼品乐器</li>
+                <li>艺术陶瓷</li>
+                <li>医药馆</li>
+                <li>特色馆</li>
+                <li>苏宁服务</li>
+                <li>苏宁金融</li>
+                <li>苏宁有房</li>
+            </ul>
+        </div>
+        <div class="sn-list-con">
+            <div class="con-box">
+                <div class="channel-banner">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <img src="./image/17.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <hgroup class="module-title class-title">热门推荐</hgroup>
+                <div class="household-recommend">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <img src="./image/18.01.jpg">
+                                <em>空调</em>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./image/18.02.jpg">
+                                <em>取暖器</em>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./image/18.03.jpg">
+                                <em>洗衣机</em>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./image/18.04.jpg">
+                                <em>羽绒服</em>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./image/18.04.png">
+                                <em>冬被</em>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./image/18.05.png">
+                                <em>热水器</em>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./image/18.06.png">
+                                <em>手机</em>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./image/18.07.jpg">
+                                <em>电视</em>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./image/18.08.jpg">
+                                <em>生活家电</em>
+                            </a>
+                        </li>
+                        <li>
+                            <a  href="">
+                                <img src="./image/18.09.jpg">
+                                <em>笔记本</em>
+                            </a>
+                        </li>
+                        <li>
+                            <a  href="">
+                                <img src="./image/18.10.png">
+                                <em>手表</em>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./image/18.11.png">
+                                <em>奶粉</em>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./image/18.12.png">
+                                <em>白酒</em>
+                            </a>
+                        </li>
+                        <li>
+                            <a  href="">
+                                <img src="./image/18.13.png">
+                                <em>跑步鞋</em>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./image/18.14.jpg">
+                                <em>水果</em>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./image/18.15.png">
+                                <em>拉杆箱</em>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./image/18.16.jpg">
+                                <em>马丁靴</em>
+                            </a>
+                        </li>
+                        <li>
+                            <a  href="">
+                                <img src="./image/18.17.jpg">
+                                <em>黄金项链</em>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

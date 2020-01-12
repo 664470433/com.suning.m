@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./js/flexible_css.debug.js"></script>
+    <script src="./js/flexible.debug.js"></script>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/lisit.css">
+</head>
+
+<body>
+    <div class="sn-nav sn-block sn-nav-search">
+        <div class="sn-nav-img" style="z-index:-1">
+        </div>
+        <div class="sn-nav-back">
+            <a class="sn-iconbtn" href="#"><i></i></a>
+        </div>
+        <div class="sn-nav-inp wbox">
+            <i class="sn-search-iconbtn"></i>
+            <div class="wbox-flex">
+                <form action="javascript:searchSubmit();">
+                    <input type="text" class="searchInp" placeholder="请输入您想找的商品"
+                        onfocus="if(this.value===this.defaultValue) {this.value=''};this.style.color='#222';"
+                        onblur="if(this.value==='') {this.value=this.defaultValue;this.style.color='#999';}"
+                        style="color:#999" value="跨店每300减30">
+                </form>
+                <input type="hidden" id="wapSearchChannel" value="">
+                <input type="hidden" id="wapSearchTerminalFlag" value="">
+            </div>
+            <div class="clo-se-input"></div>
+            <a href="" class="button">搜索</a>
+        </div>
+    </div>
+    <div class="popular-search">
+        <h4>热门搜索</h4>
+        <div class="popular-search-item clearfix">
+            <a href="">手机</a>
+            <a href="" class="red">满300减210</a>
+            <a href="" class="red">华硕超品日</a>
+            <a href="">电视</a>
+            <a href="">油汀</a>
+            <a href="" class="red">吸尘器</a>
+            <a href="" class="red">小天才年货节</a>
+            <a href="">洗衣机</a>
+            <a href="">茅台</a>
+            <a href="">热水器</a>
+            <a href="">ipad</a>
+            <a href="">微波炉</a>
+        </div>
+    </div>
+</body>
+
+</html>

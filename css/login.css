@@ -1,0 +1,251 @@
+header {
+    box-sizing: border-box;
+    padding: .26rem .48rem 0;
+    clear: both;
+    overflow: hidden;
+}
+
+header .navUrl {
+    display: inline-block;
+    position: relative;
+    float: right;
+    height: 1.2rem;
+    line-height: 1.2rem;
+}
+
+header .navUrl a.kf {
+    margin-right: .48rem;
+    position: relative;
+}
+
+
+header .navUrl a {
+    display: inline-block;
+    font-size: .38rem;
+    color: #222;
+    text-align: center;
+}
+
+header .navUrl a.qyzc {
+    margin-left: .48rem;
+}
+
+header .navUrl a {
+    display: inline-block;
+    font-size: .38rem;
+    color: #222;
+    text-align: center;
+}
+
+header .navUrl a.qyzc::before {
+    content: "";
+    display: inline-block;
+    width: .02rem;
+    height: .7rem;
+    border-left: 1px solid #ddd;
+    position: absolute;
+    left: 50%;
+    top: .2rem;
+}
+
+.login-content, .login-content2 {
+    padding: 0 0.5rem;
+    margin-top: 1.12rem;
+}
+
+.login-content h2, .login-content2 h2 {
+    font-size: .68rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: 500;
+}
+
+.tel_inputBox, .password_inputBox, .form-content {
+    width: 12rem;
+    height: 1.8rem;
+    line-height: 1.8rem;
+    margin-top: 1.2rem;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+
+.tel_inputBox .input-label{
+    height: 1.34rem;
+    line-height: 1.5rem;
+    position: absolute;
+    left: .46rem;
+    top: .5rem;
+    font-size: .6rem;
+    color: #ccc;
+    background: transparent;
+    cursor: text;
+}
+
+.yzm_inputBox {
+    width: 12rem;
+    height: 1.56rem;
+    margin-top: .6rem;
+    clear: both;
+    overflow: hidden;
+}
+
+.yzm_inputBox {
+    width: 12rem;
+    height: 1.68rem;
+    margin-top: .6rem;
+    clear: both;
+    overflow: hidden;
+}
+
+#yzm>.label {
+    width: 0.9rem;
+    height: 1.5rem;
+    float: left;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    line-height: 1.56rem;
+    font-size: .96rem;
+    margin-right: .48rem;
+    text-align: center;
+    position: relative;
+}
+
+#yzm>.label:nth-child(4) {
+    margin: 0;
+}
+
+.yzm_inputBox .yzm {
+    width: 7.68rem;
+    height: 1.56rem;
+    display: inline-block;
+    clear: both;
+    overflow: hidden;
+}
+
+.yzm_inputBox .getYzm {
+    width: 3.96rem;
+    height: 1.56rem;
+    float: right;
+    margin-right: 100px;
+    margin-top: -61px;
+    text-align: center;
+    line-height: 1.56rem;
+    display: inline-block;
+    font-size: .6rem;
+    color: #ccc;
+    letter-spacing: 0;
+    border: 1px solid #ccc;
+    border-radius: .24rem;
+}
+
+.btnBox {
+    margin-top: 1.2rem;
+    text-align: center;
+}
+
+.btnBox .login_btn {
+    position: relative;
+    width: 9rem;
+    height: 1.8rem;
+    line-height: 1.8rem;
+    display: block;
+    color: #222;
+    font-size: .68rem;
+    border-radius: .36rem;
+    background: #fc0;
+    font-weight: 700;
+}
+
+.btnBox .other_btn1, .btnBox .other_btn2 {
+    position: absolute;
+    bottom: 148px;
+    left: 123px;
+    display: inline-block;
+    margin-top: .84rem;
+    font-size: .6rem;
+    color: #000;
+    text-align: center;
+}
+
+footer {
+    width: 9.6rem;
+    text-align: center;
+    margin: -85px;
+    position: absolute;
+    left: 2.3rem;
+    bottom: 1.84rem;
+    font-size: .4rem;
+}
+
+footer .f-loginp {
+    color: #999;
+    position: relative;
+    margin-bottom: .38rem;
+}
+
+footer .f-loginp::before {
+    left: 0;
+}
+
+footer .f-loginp::before, footer .f-loginp::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: .28rem;
+    width: 3rem;
+    border-bottom: 1px solid #ddd;
+}
+
+footer .f-loginp::after {
+    right: 0;
+}
+
+footer .f-loginp::before, footer .f-loginp::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: .28rem;
+    width: 3rem;
+    border-bottom: 1px solid #ddd;
+}
+
+footer .f-icons {
+    width: 100%;
+    clear: both;
+    overflow: hidden;
+    margin-bottom: .7rem;
+}
+
+footer .f-icons a {
+    display: inline-block;
+    width: 1.32rem;
+    height: 1.32rem;
+    float: left;
+    margin-right: 2.8rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+footer .f-icons a:last-child {
+    margin: 0;
+}
+
+footer .f-agree {
+    color: #999;
+    text-align: left;
+}
+
+footer b {
+    color: #101010;
+}
+
+footer .f-agree a {
+    color: #101010;
+    text-decoration: underline;
+}
+
